@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once 'autoload.php';
 ?>
 <?php include_once 'C:\wamp64\www\gestor-claves-local\app\views\components\head.php'; ?>
@@ -9,18 +9,22 @@ require_once 'autoload.php';
     </div>
     <div class="text-center mb-4">
         <h1>Bienvenido al Gestor de Claves Local</h1>
-        <p>Por favor, inicia sesión para continuar.</p>
+        <p>Registrate</p>
     </div>
-    <form id="loginForm" method="post" action="/login" class="col-10">
+    <form id="loginForm" method="post" action="record.php" class="col-10">
         <div class="mb-3">
             <label for="username" class="form-label">Usuario</label>
             <input type="text" class="form-control" id="username" name="username" required>
         </div>
         <div class="mb-3">
+            <label for="email" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
             <label for="password" class="form-label">Contraseña</label>
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
-        <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+        <button type="submit" class="btn btn-primary w-100" name="submit">Iniciar Sesión</button>
     </form>
 </div>
 

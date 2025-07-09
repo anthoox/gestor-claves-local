@@ -1,3 +1,6 @@
+<!-- conexión a la db -->
+<?php  require_once 'C:\wamp64\www\gestor-claves-local\core\Database.php'; ?>
+
 <!DOCTYPE html>
 <html lang="es">
 

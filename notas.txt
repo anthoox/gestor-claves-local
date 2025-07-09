@@ -2,3 +2,4 @@
 2 base de datos
 3 sistema de archivos
 4 conexión con la base de datos
+5 añadimos al head la conexión a la base de datos
