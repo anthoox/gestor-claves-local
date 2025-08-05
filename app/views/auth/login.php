@@ -2,7 +2,7 @@
 
 <div class="container-fluid  d-flex align-items-center flex-column mt-5 p-3">
   <div class="text-center mb-4">
-    <h1>Registro</h1>
+    <h1>Login</h1>
     <!-- <p>Registrate</p> -->
   </div>
   <!-- <form id="loginForm" method="post" action="record.php" class="col-10">

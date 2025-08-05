@@ -10,3 +10,6 @@ return [
         'charset'  => 'utf8mb4',
     ],
 ];
+
+
+// session_start();
