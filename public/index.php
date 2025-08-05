@@ -8,10 +8,10 @@ require_once 'autoload.php';
         <img src="/images/logo.png" alt="Logo" class="img-fluid" style="max-width: 200px;">
     </div>
     <div class="text-center mb-4">
-        <h1>Bienvenido al Gestor de Claves Local</h1>
-        <p>Registrate</p>
+        <h1>Gestor de Claves Local</h1>
+        <!-- <p>Registrate</p> -->
     </div>
-    <form id="loginForm" method="post" action="record.php" class="col-10">
+    <!-- <form id="loginForm" method="post" action="record.php" class="col-10">
         <div class="mb-3">
             <label for="username" class="form-label">Usuario</label>
             <input type="text" class="form-control" id="username" name="username" required>
@@ -25,7 +25,25 @@ require_once 'autoload.php';
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
         <button type="submit" class="btn btn-primary w-100" name="submit">Iniciar Sesión</button>
-    </form>
+    </form> -->
+
+    <div class="container">
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Aplicación 1</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Aplicación 2</h5>
+                <span>2 cuentas</span>            
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <!-- Bootstrap JS Bundle -->
